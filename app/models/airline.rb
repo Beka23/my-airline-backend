@@ -8,5 +8,6 @@ class Airline < ApplicationRecord
     end
 
     def avg_score
+        reviews.average(:score).round(
     end
 end
