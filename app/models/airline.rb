@@ -7,7 +7,7 @@ class Airline < ApplicationRecord
         self.slug = name.parameterize  
     end
 
-    def avg_score
-        reviews.average(:score).round(
-    end
+#     def avg_score
+#         
+#     end
 end
